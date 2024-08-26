@@ -1,7 +1,13 @@
-import React from "react";
-
-const page = () => {
-  return <div>this is performance page </div>;
+import Hero from "@/components/hero";
+import performaceImg from "../../../public/performance.jpg";
+const PerformancePage = () => {
+  return (
+    <Hero
+      imgData={performaceImg}
+      imgAlt="welding"
+      title="We serve high performance aapplications"
+    />
+  );
 };
 
-export default page;
+export default PerformancePage;
