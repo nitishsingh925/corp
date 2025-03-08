@@ -1,5 +1,6 @@
 import Hero from "@/components/hero";
 import performaceImg from "../../../public/performance.jpg";
+
 const PerformancePage = () => {
   return (
     <Hero
