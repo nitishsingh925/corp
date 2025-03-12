@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 
 const header = () => {
+  
   return (
     <header className="w-full absolute text-white z-10">
       <nav className="container relative flex flex-wrap items-center justify-between mx-auto p-8">
