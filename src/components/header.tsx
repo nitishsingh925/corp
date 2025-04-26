@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 const header = () => {
+
   
   return (
     <header className="w-full absolute text-white z-10">
