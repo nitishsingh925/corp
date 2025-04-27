@@ -2,6 +2,7 @@ import type { StaticImageData } from "next/image";
 import Image from "next/image";
 import React from "react";
 
+
 interface HeroProps {
   imgData: StaticImageData;
   imgAlt: string;
